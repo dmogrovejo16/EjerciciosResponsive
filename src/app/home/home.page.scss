@@ -1,27 +1,17 @@
-#container {
-  text-align: center;
+@media screen and (max-width: 400px){
 
+.imagen{
+  background-image: url("https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/11/12/16367293961507.jpg");
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+}
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+@media screen and (min-width: 401px){
+.imagen{
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/14/19/54/christmas-7656133_1280.jpg") ;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}}
